@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/Screens/Landing/home_screen.dart';
+import 'package:flutter_auth/temp.dart';
 import 'Screens/Welcome/welcome_screen.dart';
 import './constants.dart';
 import 'onboarding_page.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
               borderSide: BorderSide.none,
             ),
           )),
-      home: HomeScreen(),
+      home: tempPage(),
       
       //OnBoardingScreen(),
     );
