@@ -30,7 +30,7 @@ class LoginForm extends StatelessWidget {
                 borderRadius: BorderRadius.circular(15),
               ),
               focusedBorder: OutlineInputBorder(
-                borderSide: const BorderSide(width: 3, color: Colors.red),
+                borderSide: const BorderSide(width: 3, color: Color.fromRGBO(248, 41, 41, 1)),
                 borderRadius: BorderRadius.circular(15),
               ),
             ),
@@ -52,7 +52,7 @@ class LoginForm extends StatelessWidget {
                 borderRadius: BorderRadius.circular(15),
               ),
               focusedBorder: OutlineInputBorder(
-                borderSide: const BorderSide(width: 3, color: Colors.red),
+                borderSide: const BorderSide(width: 3, color: Color.fromRGBO(248, 41, 41, 1)),
                 borderRadius: BorderRadius.circular(15),
               ),
               ),

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_auth/Screens/Landing/home_screen.dart';
 import 'Screens/Welcome/welcome_screen.dart';
 import './constants.dart';
-
-import 'components/background.dart';
+import 'onboarding_page.dart';
 
 void main() => runApp(const MyApp());
 
@@ -14,8 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Auth',
       theme: ThemeData(
+          textTheme: TextTheme(headline1: TextStyle(color: Color.fromARGB(255, 254, 254, 254)),),
           primaryColor: kPrimaryColor,
-          scaffoldBackgroundColor: Colors.white,
+          scaffoldBackgroundColor: Color.fromARGB(100, 35, 35, 35),
           elevatedButtonTheme: ElevatedButtonThemeData(
             style: ElevatedButton.styleFrom(
               elevation: 0,
@@ -37,7 +38,9 @@ class MyApp extends StatelessWidget {
               borderSide: BorderSide.none,
             ),
           )),
-      home: const WelcomeScreen(),
+      home: HomeScreen(),
+      
+      //OnBoardingScreen(),
     );
   }
 }
